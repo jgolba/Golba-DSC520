@@ -62,7 +62,7 @@ library(DBI)
 ## The first argument is the database driver which in this case is `RSQLite::SQLite()`
 ## The second argument is the path to the database file
 ## Assign the connection to `db` variable
-db <- dbConnect(RSQLite::SQLite(), '~tidynomicon/example.db')
+db <- dbConnect(RSQLite::SQLite(), 'tidynomicon/example.db')
 
 ## Query the Person table using the `dbGetQuery` function and the
 ## `SELECT * FROM PERSON;` SQL statement
