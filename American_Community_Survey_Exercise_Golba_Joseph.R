@@ -4,7 +4,7 @@ ACS <- read.csv(file="acs-14-1yr-s0201.csv")
 head(ACS)
 
 #i What are the elements in your data (including the categories and data types)?
-##########
+summary(ACS)
 
 #ii Please provide the output from the following functions: str(); nrow(); ncol()
 str(ACS) 
